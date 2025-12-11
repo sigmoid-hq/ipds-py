@@ -8,13 +8,13 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="ipds-py",
-    version="0.1.0dev",
+    version="1.0.1",
     author="Juan Lee",
-    author_email="juan.lee@sigmd.com",
-    description="IP Describe Library - Comprehensive IP information lookup tool",
+    author_email="juan.lee@sigmoid.us",
+    description="IPDS; IP Describe Library - Comprehensive IP information lookup tool",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sigmd-com/ipds-py",
+    url="https://github.com/sigmoid-hq/ipds-py",
     packages=find_packages(),
     python_requires=">=3.12",
     install_requires=requirements,
